@@ -1,0 +1,28 @@
+
+.statistics{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 450px;
+    padding: 15px;
+
+    background-color: rgb(209, 199, 199);
+}
+
+.statList{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin-top: 20px;
+
+}
+.item{
+    height: auto;
+    width: 100%;
+}
+.label{
+    display: block;
+}
