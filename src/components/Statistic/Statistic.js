@@ -11,7 +11,7 @@ export default function Statistic({title, stats}) {
     return(
         
         <section className={s.statistics}>
-            <h2 className="title">{title}</h2>
+            {title && <h2 className="title">{title}</h2>}
 
             <ul className={s.statList}>
                 {stats.map(stat =>(
