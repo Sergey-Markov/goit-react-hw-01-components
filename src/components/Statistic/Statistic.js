@@ -2,10 +2,10 @@ import PropTypes from 'prop-types';
 import s from '../Statistic/statistic.module.css';
 
 let color = 'red';
-    function randomColor(color){
-        color ='rgb('+Math.round(Math.random()*255)+','+Math.round(Math.random()*255)+','+Math.round(Math.random()*255)+')';
-        return color;
-    };
+function randomColor(color){
+    color ='rgb('+Math.round(Math.random()*255)+','+Math.round(Math.random()*255)+','+Math.round(Math.random()*255)+')';
+    return color;
+};
 export default function Statistic({title, stats}) {
     
     return(
